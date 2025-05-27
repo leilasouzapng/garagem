@@ -13,7 +13,7 @@ router = DefaultRouter()
 
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 router.register(r'acessorios', AcessorioViewSet, basename='acessorios')
-router.register(r'cors', CorViewSet, basename='Cors')
+router.register(r'cores', CorViewSet, basename='Cores')
 router.register(r'modelos', ModeloViewSet, basename='modelos')
 router.register(r'veiculos', VeiculoViewSet, basename='veiculos')
 
